@@ -1,0 +1,28 @@
+<div class="panel panel-default panel-padding">
+	<div class="panel-body">
+		<input class="searchBar" id="search" placeholder="Search..." />
+		<button type="search" class="btn btn-info" (click)="onSearch()">search</button>
+	</div>
+</div>
+<section>
+	<table class="table table-bordered table-striped table-hover">
+		<thead  *ngIf="this.studentGrades!=null">
+			<tr>
+				 <th>Student</th>
+			     <th>Course</th>
+			     <th>Achievement Grade</th>
+			     <th>Effort Grade</th>
+			     <th>Semester</th>
+		  	</tr>
+		 </thead>
+	  	<tbody>
+	  		<tr *ngFor="let studentGrades of this.studentGrades">
+	  		<td>{{studentGrades.studentName}}</td>
+	  		<td>{{studentGrades.course}}</td>
+	  		<td>{{studentGrades.achievementGrade}}</td>
+	  		<td>{{studentGrades.effortGrade}}</td>
+	  		<td>{{studentGrades.semester}}</td>
+	  		</tr>
+	  	</tbody>
+	</table>
+</section>

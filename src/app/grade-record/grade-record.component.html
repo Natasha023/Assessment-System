@@ -1,0 +1,8 @@
+<div class="container">
+	<form (ngSubmit)="onSubmit()" #gradeForm="ngForm">
+	  <div class="form-group">
+        <ng2-smart-table [settings]="columns" [source]="source" ></ng2-smart-table>
+	    </div>
+	 <button type="submit" class="btn btn-success" [disabled]="!gradeForm.form.valid">Submit</button>
+  </form>
+</div>

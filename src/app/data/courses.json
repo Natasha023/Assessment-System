@@ -1,0 +1,22 @@
+{
+	"courses":[
+	{	
+		"courseId":1,
+		"courseName":"English"
+
+	},
+	{
+		"courseId":2,
+		"courseName":"Maths"
+	},
+	{	
+		"courseId":3,
+		"courseName":"Science"
+
+	},
+	{
+		"courseId":4,
+		"courseName":"Arts"
+	}
+	]
+}

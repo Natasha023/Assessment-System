@@ -1,0 +1,11 @@
+ <div>
+ <div>
+    <h2 class="label label-default">Hi {{currentUser.firstName}} {{currentUser.lastName}}!</h2>
+    <h4>You're logged in Assessment System!    <a routerLink="/login">Logout</a></h4>
+</div>
+ <nav>
+    <button class="btn btn-success" routerLink="/graderecord" routerLinkActive="active">Record Grade</button>
+    <button class="btn btn-warning" routerLink="/searchstudent" routerLinkActive="active">Search Student</button>
+  </nav>
+  <router-outlet></router-outlet>
+  </div>

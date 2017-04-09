@@ -1,0 +1,10 @@
+.searchBar{
+  width: 400px;
+  height:30px;
+  white-space: nowrap;
+  position: relative;
+}
+
+.panel-padding{
+	margin-top: 20px;
+}
